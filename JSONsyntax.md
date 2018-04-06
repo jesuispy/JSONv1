@@ -5,7 +5,7 @@
 - Key inside "double quote"
 - Key and value separated by colon :
 - Comma , separates data
-- [ ] holds Arrays
+- [] holds Arrays
 - { }holds objects
 
 **VALUES** [Ref](https://www.tutorialspoint.com/json/json_data_types.htm)
