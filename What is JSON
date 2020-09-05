@@ -2,11 +2,13 @@ JSON
 
 JavaScript Object Notation (got the name because the syntax is similar to javascript object literal, can be describe as a subset)
 
-Used to store data and exchange data.
+A format used to store data and exchange data.
+Ke way to describe JSON syntax is key value pairs.
+Key can be considered teh description and the value is the contents
 Becomes usefull when used with API's
 
 1) Human readable
-2)Language independent
+2) Language independent
 3) Has support in all programmin languages
 4) Organised and easy-to-access
 
@@ -14,10 +16,39 @@ Exchange between client and servers
 
 Text based format (not a language)
 Light-weighted
-Doesn't not support comments or name spaces
+Doesn't not support comments or name spaces Keep this in mind we will bring this up when we look at YAML.
 
-Javascript literal is comma separte list of keyvalue pairs enclosed in curly brackets ref(http://www.dyn-web.com/tutorials/object-literal/) 
+Javascript literal is a comma separated list of keyvalue pairs enclosed in curly brackets ref(http://www.dyn-web.com/tutorials/object-literal/) 
 
-JSON have to enclose keysvalues in double quotes
-JSON single quotes not allowed
-JSON written inside curly braces {}
+Rule to write JSON are as follows:
+
+1) JSON written inside curly braces {}
+2) JSON key value pairs
+3) JSON have to enclose keys in double quotes values depends on type.
+4) JSON key and value separated by :
+5) JSON , use to separate new key value pairs
+6) JSON [] hold arrays, {} hold objects.
+
+# Curl braces {
+#Key value pairs, enclosed in double quotes, using string , boolean, numbers   
+{"Name" : "Winner",
+"friends" : 10,
+"This_is_a_fact": false}
+}
+
+Type of data used in JSON and use of ""
+1- String  yes " "
+2- numbers no ""
+3- boolens no ""
+4- null no ""
+5- arrays []
+6- objects {}
+
+Value can be "value, arrays, dictionary.
+
+What JSON is not JSOn is not a 
+1- Programming language 
+2- JS object literal
+
+
+
